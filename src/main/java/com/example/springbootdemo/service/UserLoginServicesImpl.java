@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 
 import java.util.List;
 
-@Service
+@Service("userLoginServices")
 public class UserLoginServicesImpl implements UserLoginServicesI {
 
     @Autowired
